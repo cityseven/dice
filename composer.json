@@ -1,0 +1,9 @@
+{
+    "name": "cityseven/dice",
+    "description": "Roll the dice",
+    "type": "project",
+    "license": "unlicense",
+    "require": {
+        "attogram/router": "^2"
+    }
+}
