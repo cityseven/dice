@@ -21,7 +21,17 @@ $router->allow('/', function (Router $router) {
 	<a href="' . $router->getUriBase() . '/32">d32</a>
 	<a href="' . $router->getUriBase() . '/64">d64</a>
 	<a href="' . $router->getUriBase() . '/100">d100</a>
-    </p>';
+    </p>
+    <pre>
+                    ______
+        .-------.  /\     \
+       /   o   /| /o \  o  \
+      /_______/o|/   o\_____\
+      | o     | |\o   /o    /
+      |   o   |o/ \ o/  o  /
+      |     o |/   \/____o/
+      '-------'    
+    </pre>';
 });
 $router->allow('/?', function (Router $router) {
     $sides = $router->getVars()[0];
