@@ -11,6 +11,7 @@ $router = new Router();
 
 $router->allow('/', function (Router $router) {
     print '<p>Roll The Dice:
+    	<a href="' . $router->getUriBase() . '/2">d2</a>
 	<a href="' . $router->getUriBase() . '/4">d4</a>
 	<a href="' . $router->getUriBase() . '/6">d6</a>
 	<a href="' . $router->getUriBase() . '/8">d8</a>
