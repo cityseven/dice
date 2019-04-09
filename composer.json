@@ -4,6 +4,6 @@
     "type": "project",
     "license": "unlicense",
     "require": {
-        "attogram/router": "^2"
+        "attogram/router": "^4"
     }
 }
