@@ -13,14 +13,14 @@ $router->allow('/', function (Router $router) {
     print '
 <p>Roll The Dice:<p>
 <p>
-<a href="' . $router->getHome() . '/2"><img src="img/d2.svg" alt="d2"></a>
-<a href="' . $router->getHome() . '/4"><img src="img/d4.svg" alt="d4"></a>
-<a href="' . $router->getHome() . '/6"><img src="img/d6.svg" alt="d6"></a>
-<a href="' . $router->getHome() . '/8"><img src="img/d8.svg" alt="d8"></a>
-<a href="' . $router->getHome() . '/10"><img src="img/d10.svg" alt="d10"></a>
-<a href="' . $router->getHome() . '/12"><img src="img/d12.svg" alt="d12"></a>
-<a href="' . $router->getHome() . '/20"><img src="img/d20.svg" alt="d20"></a>
-<a href="' . $router->getHome() . '/100"><img src="img/d100.svg" alt="d100"></a>
+<a href="' . $router->getHome() . '2"><img src="img/d2.svg" alt="d2"></a>
+<a href="' . $router->getHome() . '4"><img src="img/d4.svg" alt="d4"></a>
+<a href="' . $router->getHome() . '6"><img src="img/d6.svg" alt="d6"></a>
+<a href="' . $router->getHome() . '8"><img src="img/d8.svg" alt="d8"></a>
+<a href="' . $router->getHome() . '10"><img src="img/d10.svg" alt="d10"></a>
+<a href="' . $router->getHome() . '12"><img src="img/d12.svg" alt="d12"></a>
+<a href="' . $router->getHome() . '20"><img src="img/d20.svg" alt="d20"></a>
+<a href="' . $router->getHome() . '100"><img src="img/d100.svg" alt="d100"></a>
 </p>';
 });
 $router->allow('/?', function (Router $router) {
