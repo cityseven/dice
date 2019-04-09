@@ -24,7 +24,7 @@ $router->allow('/', function (Router $router) {
 </p>';
 });
 $router->allow('/?', function (Router $router) {
-    $sides = $router->getVars()[0];
+    $sides = $router->getVar(0);
 
     if (preg_match('/^[0-9]+$/', $sides) !== 1) {
     	die('Dice Not Found');
