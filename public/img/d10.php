@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?php
+
+$sides = 10;
+$rollTheDice = 'd' . $sides;
+if (!isset($_GET['start'])) {
+    $rollTheDice = random_int(1, $sides);
+}
+
+header('Content-type: image/svg+xml');
+
+echo '<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -141,6 +151,7 @@
          y="122.36905"
          x="89.787659"
          id="tspan3287"
-         sodipodi:role="line">d10</tspan></text>
+         sodipodi:role="line">' . $rollTheDice . '</tspan></text>
   </g>
 </svg>
+';
