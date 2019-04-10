@@ -8,7 +8,7 @@ if (!isset($_GET['start'])) {
 
 header('Content-type: image/svg+xml');
 
-print '<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+echo '<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
